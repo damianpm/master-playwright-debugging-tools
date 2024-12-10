@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "debug": "playwright test --debug",
+    "ui": "playwright test --ui",
+    "headed": "playwright test --headed"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
